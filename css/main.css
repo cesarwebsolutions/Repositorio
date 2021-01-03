@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'Montserrat_Regular';
+	font-display: swap;
+	src: url('../font/Montserrat_Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat_Regular_Italic';
+	font-display: swap;
+	src: url('../font/Montserrat_Regular_Italic.ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat_Bold';
+	font-display: swap;
+	src: url('../font/Montserrat_Bold.ttf');
+}
+
+
+
+
+
+body{
+	font-family: Monteserrat_Regular, sans-serif;
+}
+
+
+
+
+
+
+
+/* espaço entre as seçoes*/
+section{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+/**/
+footer{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: #003578;
+	color: #fff;
+}
+
+footer a,
+footer a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer .rodape-final h6{
+	color: #b7b7b7;
+}
+/*ÍCONES REDE SOCIAL*/
+footer .social .fa{
+	font-size: 2.5em;
+
+}
+
+#mapa{
+	width: 100%;
+	height: 200px;
+}
